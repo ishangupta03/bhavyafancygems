@@ -1,0 +1,67 @@
+.row-m {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em 0.75em;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.column-m {
+    width: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.card-m {
+    display: inline-block;
+    width: min-content;
+    padding: 0.5em 0.1em;
+}
+
+.card-m .img-container {
+    width: 10em;
+    height: 8em;
+    padding: 0.3em;
+    border-radius: 50%;
+    margin: 0 auto 1.25em auto;
+}
+.card-m img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 600px){
+.card-m .img-container {
+    width: 8em;
+    height: 8em;
+    padding: 0.3em;
+    border-radius: 50%;
+    margin: 0 auto 0.5em auto;
+}
+.row-m {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em 0.75em;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+}
+
+
+
+
+
+.testimonial{
+    padding: 0.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
