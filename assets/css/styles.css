@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /* Change favorite color to match images */
-  /*Green dark 190 - Green 171 - Grren Blue 200*/
+ 
   --hue-color: 190;
 
   /* HSL color mode */
@@ -434,6 +434,8 @@ input {
 }
 
 .about__description {
+  padding-left: 5%;
+  padding-right: 5%;
   margin-top: 10px;
   text-align: center;
   margin-bottom: var(--mb-2);
@@ -853,6 +855,10 @@ input {
   .logo img{
   width: 45px ;
 
+}
+
+.about__container.container.grid{
+margin: 0;
 }
 
 .nav{
